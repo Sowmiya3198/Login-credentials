@@ -1,0 +1,41 @@
+img{
+  width: 30px;
+  object-fit:contain; /*Automatically generated width height*/
+}
+
+.buttonContainer {
+  cursor : pointer;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background:rgb(182, 180, 180);
+  padding:10px 20px;
+  border-radius:10px;
+}
+
+button{
+  border:none;
+  outline:none;
+  background:transparent;
+  cursor:pointer;
+  font-size:20px;
+}
+
+section{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height:100vh;
+
+}
+
+section > div{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  
+}
+
+h1{
+  text-align:center;
+}
